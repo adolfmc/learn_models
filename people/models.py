@@ -1,0 +1,45 @@
+from django.db import models
+
+
+class Person(models.Model):
+    name = models.CharField(max_length=30)
+    age = models.IntegerField()
+
+class Person22(models.Model):
+    name = models.CharField(max_length=30)
+    age = models.IntegerField()
+
+class Perduct(models.Model):
+    s1 = models.CharField(max_length=300)
+    s2 = models.CharField(max_length=300)
+    s3 = models.CharField(max_length=300)
+    s4 = models.CharField(max_length=300)
+    s5 = models.CharField(max_length=300)
+    s6 = models.CharField(max_length=300)
+    s7 = models.CharField(max_length=300)
+    s8 = models.CharField(max_length=300)
+    s9 = models.CharField(max_length=300)
+    s10 = models.CharField(max_length=300)
+    s11= models.CharField(max_length=300)
+    s12 = models.CharField(max_length=300)
+    s13= models.CharField(max_length=300)
+    s14 = models.CharField(max_length=300)
+    s15 = models.CharField(max_length=300)
+    s16 = models.CharField(max_length=300)
+    s17 = models.CharField(max_length=300)
+    s18 = models.CharField(max_length=300)
+    s19 = models.CharField(max_length=300)
+    s20 = models.CharField(max_length=300)
+    s21 = models.CharField(max_length=300)
+    s22 = models.CharField(max_length=300)
+    s23 = models.CharField(max_length=300)
+    s24 = models.CharField(max_length=300)
+    s25 = models.CharField(max_length=300)
+    s26= models.CharField(max_length=300)
+    s27 = models.CharField(max_length=300)
+    s28= models.CharField(max_length=300)
+    s29 = models.CharField(max_length=300)
+    s30 = models.CharField(max_length=300)
+    s31 = models.CharField(max_length=300,null=True)
+    s32 = models.CharField(max_length=300,null=True)
+    s33 = models.CharField(max_length=300, null=True)
